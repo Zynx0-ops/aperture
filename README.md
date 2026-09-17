@@ -3,6 +3,11 @@
 A local-first photo and video colour editor. Everything runs on the device; no
 media is ever uploaded.
 
+**Live:** https://zynx0-ops.github.io/aperture/
+
+Every push to `main` rebuilds and redeploys the site through GitHub Actions
+(`.github/workflows/deploy.yml`). To run it locally instead:
+
 ```bash
 npm install
 npm run dev
